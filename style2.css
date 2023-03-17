@@ -178,31 +178,54 @@ img {
 h1 {
   display: block;
   justify-content: center;
-  margin-left: 43%;
+  margin-left: 45%;
   margin-right: 25%;
   margin-top: 20px;
   color: white;
 }
 p {
   color: white;
-  font-size: 150%;
+  font-size: 20px;
   line-height: 1.5;
 }
 
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    display: block;
+    justify-content: center;
+    margin-left: 43%;
+    margin-right: 25%;
+    margin-top: 20px;
+    color: white;
+    font-size: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .front {
+    margin-left: 35%;
+  }
+  
+}
 @media only screen and (max-width: 768px) {
 
   h1{
-    font-size: 1em;
-    
+    font-size: 100%;
+    color: orangered;
+    margin-left: 40%;
+    margin-right: 25%;
   }
 }
 @media only screen and (max-width: 768px) {
 
-  p{
-
-    font-size: 1em;
+  p{ 
+    color: orangered;
+    text-align: justify;
+    font-size: 60%;
+    background-color: rgba(0, 0, 0, 0.39);
   }
 }
+
 .descricao p{
   display: flex;
   display: block;
